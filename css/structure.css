@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1280px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.toursWrapper {
+  width: 818px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.heroWrapper {
+  padding-top: 120px;
+}
+
+/*images under hero on tour package page*/
+.subWrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 730px) {
+  .style {
+    max-width: 200px;
+  }
+  .style nav {
+    max-width: 800px;
+  }
+  .style .logo {
+    visibility: hidden;
+  }
+
+  .aboutSection {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 25px;
+  }
+
+  .quotes h1 {
+    text-align: center;
+  }
+  .quotes .clientRow {
+    padding: 20px;
+  }
+  .quotes .clientText {
+    min-width: 260px;
+  }
+  .quotes .clientName {
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .style nav {
+    width: 290px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 730px) {
+  footer {
+    display: table;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  footer .logo {
+    padding-left: 30px;
+  }
+  footer .copyright {
+    white-space: nowrap;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .toursWrapper {
+    width: 527px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .toursWrapper {
+    width: 236px;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .heroWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .heroWrapper h1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .days {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .days .aboutDays {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .days {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px;
+    width: 350px;
+  }
+  .days .aboutDays {
+    width: 350px;
+    margin-bottom: -120px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .packageWrapper .package {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .subWrapper {
+    width: 450px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 90px;
+  }
+  .subWrapper .packageSub {
+    margin-bottom: 42px;
+  }
+}
